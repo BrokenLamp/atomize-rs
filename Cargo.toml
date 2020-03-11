@@ -2,6 +2,8 @@
 name = "atomize"
 version = "0.1.0"
 authors = ["Brandon Dyer <brandondyer64@gmail.com>"]
+description = "Elixir style atoms / symbols"
+license = "MIT"
 edition = "2018"
 
 [dependencies]

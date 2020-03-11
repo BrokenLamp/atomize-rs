@@ -1,7 +1,9 @@
 [package]
 name = "atomize-macro"
 version = "0.1.0"
-authors = ["Brandon Dyer <brandondyer64@gmail.com>"]
+authors = ["Brandon Dyer"]
+description = "Macros for the atomize crate"
+license = "MIT"
 edition = "2018"
 
 [lib]
