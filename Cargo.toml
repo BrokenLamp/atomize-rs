@@ -1,0 +1,9 @@
+[package]
+name = "atomize"
+version = "0.1.0"
+authors = ["Brandon Dyer <brandondyer64@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+proc-macro-hack = "0.5.11"
+atomize-macro = { version = "0.1.0", path = "./atomize-macro" }
