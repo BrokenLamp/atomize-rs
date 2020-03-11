@@ -1,6 +1,6 @@
 [package]
 name = "atomize"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Brandon Dyer <brandondyer64@gmail.com>"]
 description = "Elixir style atoms / symbols"
 readme = "README.md"
