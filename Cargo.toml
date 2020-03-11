@@ -4,6 +4,8 @@ version = "0.1.0"
 authors = ["Brandon Dyer <brandondyer64@gmail.com>"]
 description = "Elixir style atoms / symbols"
 readme = "README.md"
+repository = "https://github.com/BrokenLamp/atomize-rs"
+keywords = ["atom", "atoms", "symbol", "symbols", "elixir"]
 license = "MIT"
 edition = "2018"
 

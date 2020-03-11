@@ -9,7 +9,7 @@ They are often useful to enumerate over distinct values.
 
 ## Creating an Atom
 
-```rs
+```rust
 use atomize::{a, Atom};
 
 fn main() {
@@ -26,7 +26,7 @@ Atoms are compared in O(1) time.
 In fact, they compile to simple u64 and so
 are compared in a single x64 operation
 
-```rs
+```rust
 assert_eq!(a!(orange), a!(orange));
 assert_ne!(a!(orange), a!(apple));
 ```
@@ -35,7 +35,7 @@ assert_ne!(a!(orange), a!(apple));
 
 Atoms can also be mixed
 
-```rs
+```rust
 let apple_and_orange = a!(apple) + a!(orange);
 
 assert_eq!(apple_and_orange, a!(orange) + a!(apple));
