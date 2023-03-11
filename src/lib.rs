@@ -1,15 +1,15 @@
-use proc_macro_hack::proc_macro_hack;
-use std::collections::hash_map::DefaultHasher;
-use std::fmt;
-use std::hash::{Hash, Hasher};
-use std::ops::Add;
+use std::{
+    collections::hash_map::DefaultHasher,
+    fmt,
+    hash::{Hash, Hasher},
+    ops::Add,
+};
 
 /// Elixir style atom macro
 /// ```rs
 /// a!(apple) == a!(apple)
 /// a!(apple) != a!(orange)
 /// ```
-#[proc_macro_hack]
 pub use atomize_macro::a;
 
 #[derive(Debug, Copy, Clone)]

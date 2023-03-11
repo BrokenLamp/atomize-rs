@@ -1,14 +1,17 @@
 [package]
-name = "atomize"
-version = "0.1.1"
 authors = ["Brandon Dyer <brandondyer64@gmail.com>"]
 description = "Elixir style atoms / symbols"
-readme = "README.md"
-repository = "https://github.com/BrokenLamp/atomize-rs"
+edition = "2021"
 keywords = ["atom", "atoms", "symbol", "symbols", "elixir"]
 license = "MIT"
-edition = "2018"
+name = "atomize"
+readme = "README.md"
+repository = "https://github.com/BrokenLamp/atomize-rs"
+version = "0.1.2"
 
 [dependencies]
-proc-macro-hack = "0.5.11"
-atomize-macro = { version = "0.1.0", path = "./atomize-macro" }
+atomize-macro = {version = "0.1.2", path = "./atomize-macro"}
+
+[workspace]
+members = ["atomize-macro"]
+resolver = "2"

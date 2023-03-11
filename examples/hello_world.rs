@@ -15,6 +15,10 @@ fn main() {
     println!("orange         : {}", a!(orange));
     println!("watermelon     : {}", a!(watermelon));
 
+    println!();
+
     // Values can also be mixed
     println!("apple + orange : {}", a!(apple) + a!(orange));
+    // Identical, regardless of order
+    println!("orange + apple : {}", a!(orange) + a!(apple));
 }

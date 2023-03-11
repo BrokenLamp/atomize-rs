@@ -1,15 +1,15 @@
 [package]
-name = "atomize-macro"
-version = "0.1.0"
 authors = ["Brandon Dyer"]
 description = "Macros for the atomize crate"
-license = "MIT"
 edition = "2018"
+license = "MIT"
+name = "atomize-macro"
+version = "0.1.2"
 
 [lib]
 proc-macro = true
 
 [dependencies]
-proc-macro-hack = "0.5.11"
-quote = "1.0.3"
-syn = "1.0.16"
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = "1.0"
