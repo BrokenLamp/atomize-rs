@@ -7,10 +7,10 @@ license = "MIT"
 name = "atomize"
 readme = "README.md"
 repository = "https://github.com/BrokenLamp/atomize-rs"
-version = "0.1.2"
+version = "0.1.3"
 
 [dependencies]
-atomize-macro = {version = "0.1.2", path = "./atomize-macro"}
+atomize-macro = {version = "0.1.3", path = "./atomize-macro"}
 
 [workspace]
 members = ["atomize-macro"]

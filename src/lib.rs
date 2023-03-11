@@ -44,8 +44,8 @@ impl From<u64> for Atom {
     }
 }
 
-impl From<&'static str> for Atom {
-    fn from(name: &'static str) -> Self {
+impl From<&str> for Atom {
+    fn from(name: &str) -> Self {
         let value: u64 = {
             let mut hasher = DefaultHasher::new();
             name.hash(&mut hasher);
