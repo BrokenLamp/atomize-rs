@@ -77,6 +77,6 @@ impl PartialEq<str> for Atom {
 
 impl fmt::Display for Atom {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> fmt::Result {
-        write!(f, "a:{:x}", self.value)
+        write!(f, "a:{:016x}", self.value)
     }
 }
